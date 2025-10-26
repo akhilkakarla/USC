@@ -80,6 +80,6 @@ while downloaded < TOTAL_IMAGES:
 
 # Cleanup
 csv_file.close()
-print(f"✅ Download complete: {downloaded} images saved in '{SAVE_DIR}'")
-print(f"📍 Coordinates saved in '{CSV_FILE}'")
+print(f"Download complete: {downloaded} images saved in '{SAVE_DIR}'")
+print(f"Coordinates saved in '{CSV_FILE}'")
 
